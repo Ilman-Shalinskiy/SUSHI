@@ -119,6 +119,7 @@
     font-size: 25px;
     font-weight: 400;
     transition: all 1s;
+    text-decoration: none;
 }
 
 .navbar__item:hover {
@@ -393,10 +394,16 @@
     cursor: pointer;
     list-style-type: none;
     margin-bottom: 10px;
-    transition: all 1s;
+    text-decoration: none;
 }
 
-.footer__item:hover {
+.footer__link {
+    transition: all 1s;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer__link:hover {
     color: #ffd17e;
 }
 
