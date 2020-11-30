@@ -6,7 +6,7 @@
 }
 
 * {
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container {
@@ -42,10 +42,12 @@
 
 .title__wrapper {
     max-width: 640px;
+    height: 800px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 160px 0 160px 55px;
+    justify-content: center;
+    padding-left: 55px;
 }
 
 .title {
@@ -414,11 +416,12 @@
 
 .social__links {
     margin-top: 35px;
+    text-decoration: none;
 }
 
 .social__link {
-    margin: 0 7px;
-    text-decoration: none;
+    width: 20px;
+    height: 20px;
 }
 
 
