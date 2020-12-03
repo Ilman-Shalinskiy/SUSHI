@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Texturina:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>SUSHI</title>
@@ -16,13 +16,13 @@
                 <div class="logo">
                     <img src="img/logo.png" alt="Logo">
                 </div>
-                <nav class="navbar">
-                    
+                <nav class="navbar">     
                     <a href="#" class="navbar__item">Home</a>
                     <a href="#" class="navbar__item">Product</a>
                     <a href="#" class="navbar__item">Promo</a>
                     <a href="#" class="navbar__item">About</a>
                     <a href="#" class="navbar__item">Contact</a>
+                    <img src="img/menu-button.png" alt="" class="burger">
                 </nav>
                 <img src="img/search.svg" alt="Search" class="search">
             </div>
@@ -75,7 +75,7 @@
         <section class="example">
             <div class="container">
                 <div class="example__wrapper">
-                    <img src="img/exemple/example_sushi.png" alt="">
+                    <img class="example__img" src="img/exemple/example_sushi.png" alt="">
                     <div class="title__wrapper">
                         <div class="title black">Title Here</div>
                         <div class="subtitle black">
@@ -116,15 +116,15 @@
 
         <section class="reverse_example">
             <div class="container">
-                <div class="example__wrapper">
-                    <div class="title__wrapper">
+                <div class="example__wrapper ">
+                    <div class="title__wrapper title__wrapper-right">
                         <div class="title black">Title Here</div>
                         <div class="subtitle black">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. 
                         </div>
                         <button class="btntitle">Order Now</button>
                     </div>
-                    <img src="img/exemple/rev_sushi.png" alt="">
+                    <img class="example__img" src="img/exemple/rev_sushi.png" alt="">
                 </div>
             </div>
         </section>
@@ -182,62 +182,64 @@
                     </div>
                 </div>
 
-                <div class="about">
-                    <div class="footer__title">About</div>
-                    <ul class="footer__subtitle">                        
-                        <li class="footer__item">
-                            <a href="#" class="footer__link">History</a>
-                        </li>
-                        <li class="footer__item">
-                            <a href="#" class="footer__link">Our Team</a>
-                        </li>
-                        <li class="footer__item">
-                            <a href="#" class="footer__link">Brand Guidelines</a>
-                        </li>
-                        <li class="footer__item">
-                            <a href="#" class="footer__link">Terms & Condition</a>
-                        </li>
-                        <li class="footer__item">
-                            <a href="#" class="footer__link">Privacy Policy</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="services">
-                    <div class="footer__title">Services</div>
-                    <ul class="footer__subtitle">  
-                        <li class="footer__item">
-                            <a href="#" class="footer__link">How to Order</a>
-                        </li>
-                        <li class="footer__item">
-                            <a href="#" class="footer__link">Our Product</a>
-                        </li>
-                        <li class="footer__item">
-                            <a href="#" class="footer__link">Order Status</a>
-                        </li>
-                        <li class="footer__item">
-                            <a href="#" class="footer__link">Promo</a>
-                        </li>
-                        <li class="footer__item">
-                            <a href="#" class="footer__link">Payment Method</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="other">
-                    <div class="footer__title">Other</div>
-                    <ul class="footer__subtitle">    
-                        <li class="footer__item">
-                            <a href="#" class="footer__link">Contact Us</a>
-                        </li>
-                        <li class="footer__item">
-                            <a href="#" class="footer__link">Help</a>
-                        </li>
-                        <li class="footer__item">
-                            <a href="#" class="footer__link">Privacy</a>
-                        </li>
-                    </ul>
-                </div>
+                <div class="info__wrapper">
+                    <div class="info__items">
+                        <div class="footer__title">About</div>
+                        <ul class="footer__subtitle">                        
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">History</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Our Team</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Brand Guidelines</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Terms & Condition</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Privacy Policy</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="info__items">
+                        <div class="footer__title">Services</div>
+                        <ul class="footer__subtitle">  
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">How to Order</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Our Product</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Order Status</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Promo</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Payment Method</a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="info__items">
+                        <div class="footer__title">Other</div>
+                        <ul class="footer__subtitle">    
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Contact Us</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Help</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Privacy</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div class="info__wrapper">
             </div>
         </div>
     </footer>
